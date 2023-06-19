@@ -1,0 +1,58 @@
+:root {
+    --azul: #0A192F;
+    --azul-claro: #112240;
+    --verde: #61F8D7;
+    --branco: #CCD6F6;
+    --cinza: #8892B0;
+    --preto: #000000;
+}
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+    /*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
+}
+
+
+body{
+    background: linear-gradient(50deg, #CCD6F6, #8892B0) no-repeat;
+    font-family: monospace;
+}
+
+/*Barra de navegação*/
+
+nav a img{
+    width: 100px;
+}
+
+nav a span{
+    font-size: 1.5em;
+    color: var(--branco);
+}
+
+nav.navbar-transparente {
+    padding: 0px 0px;
+    background: var(--azul);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--branco);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--verde);
+    transition: .5s;
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--branco);
+    border-color: var(--branco);
+}
+
+.divisor {
+    width: 1px;
+    background: var(--branco);
+    margin: 12px 15px;
+}
