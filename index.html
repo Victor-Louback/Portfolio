@@ -5,62 +5,243 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
-          <div class="container">
-            <a href="index.html" class="navbar-brand">
-              <img src="img/CV. Logo .png"> <span>Victor Louback</span>
-            </a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-    
-            <div class="collapse navbar-collapse justify-content-end" id="nav-principal">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link"><i class="fa-brands fa-square-github"></i> Github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
-                    </li>
+</head>
 
-                    <li class="nav-item divisor"></li>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparente">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/Logo1.png" class="img-fluid " style="width: 350px;">
+                </a>
 
-                    <li class="nav-item">
-                        <a href="" class="nav-link"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="nav-principal">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-brands fa-square-github"></i> Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                        </li>
+
+                        <li class="nav-item divisor"></li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-solid fa-envelope"></i> Gmail</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="txt1">Seu próximo desenvolvedor</h1>
+                <h1 class="txt2">front-end</h1>
+                <p>Me chamo Victor Louback, 22 anos, Desenvolvedor front-end HTML, CSS, JS e bootstrap <br>Saiba mais
+                    sobre mim</p>
+                <a href="" class="btn btn-lg btn-custom">
+                    <i class="fa-brands fa-linkedin"></i> Linkedin
+                </a>
+                <a href="" class="btn btn-lg btn-custom">
+                    <i class="fa-brands fa-square-github"></i> Github
+                </a>
             </div>
         </div>
-    </nav>
-</header>
+    </main>
+
+    <section id="sobre-mim" class="sessao"><!--Sobre mim-->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="txt-sobre-mim">Sobre mim</h1>
+            </div>
+        </div>
+        <div class="container"><!--container-->
+            <div class="row"><!--row-->
+                <div class="col-md-6">
+                    <img src="img/perfil.png" class="img-sobre-mim img-fluid d-none d-md-block">
+                </div>
+                <div class="col-md-6">
+
+                    <p>Olá! Sou Victor Louback, um entusiasta da tecnologia de 22 anos, embarcando em uma jornada de
+                        aprendizado em desenvolvimento web e animado para compartilhar meu progresso com vocês.</p>
+                    <p>Para compartilhar minha jornada de aprendizado, conectar-me com outros profissionais e inspirar a
+                        comunidade de desenvolvedores, criei o perfil <a href="#">@loubackdev</a> no Instagram.</p>
+                    <p>No meu perfil, compartilho dicas, insights e recursos relacionados ao desenvolvimento web. É um
+                        espaço onde posso interagir com pessoas apaixonadas por tecnologia, trocar experiências e
+                        aprender juntos.</p>
+                    <p>Se você está interessado em se manter atualizado com as últimas tendências do desenvolvimento web
+                        e encontrar inspiração para seus projetos, convido você a me seguir no Instagram. Juntos,
+                        podemos explorar o vasto mundo da tecnologia e conquistar novos horizontes.</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-inline">
+                                <li><i class="fa-solid fa-calendar-days"></i><strong> Data de nascimento:
+                                    </strong>20/11/2000</li>
+                                <li><i class="fa-solid fa-location-dot"></i><strong> Endereço: </strong>Campos dos
+                                    Goytacazes, Brasil</li>
+                                <li><i class="fa-solid fa-flag"></i><strong> Nacionalidade: </strong>Brasileiro</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-inline">
+                                <li><i class="fa-solid fa-phone"></i><strong> Telefone: </strong>(22) 992096736</li>
+                                <li><i class="fa-solid fa-envelope"></i><strong> Gmail:
+                                    </strong>victorloubackfaria@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--/row-->
+        </div><!--/container-->
+    </section><!--/Sobre mim-->
+
+
+    <section id="atualmente" class="sessao"><!--atualmente-->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="txt-atualemte">O que estou fazendo atualmente</h1>
+            </div>
+        </div>
+        <div class="container"><!--container-->
+            <div class="row"><!--row-->
+                <div class="col-md-6">
+
+                    <p>Estou me aprimorando por meio de recursos educacionais, como o curso 'Desenvolvimento Web
+                        Completo - 20 cursos + 20 projetos' na Udemy.com. Através desse curso abrangente, estou
+                        progredindo passo a passo e aplicando os conceitos aprendidos em projetos práticos.</p>
+                    <p>Além disso, estou dedicando tempo para estudar e aprimorar meu conhecimento em outras áreas
+                        relacionadas ao desenvolvimento web. Estou focado em expandir meu domínio de JavaScript,
+                        aprofundar meu conhecimento em HTML e CSS, e explorar frameworks populares como React e Vue.js.
+                    </p>
+                    <p>Para complementar meu crescimento profissional, também estou investindo no estudo da língua
+                        inglesa. Reconheço a importância do inglês no cenário global de tecnologia e estou empenhado em
+                        aprimorar minhas habilidades de comunicação e compreensão da língua.</p>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="img/estudando.png" class="img-atualmente img-fluid d-none d-md-block ms-auto">
+                </div>
+            </div><!--/row-->
+        </div><!--/container-->
+    </section><!--/atualmente-->
+
+
+    <section id="sobre-mim" class="sessao"><!--Sobre mim-->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="txt-sobre-mim">Projetos</h1>
+            </div>
+        </div>
+
+
+        <div class="album py-5 ">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                    <div class="col">
+                        <div class="card shadow-sm projetos">
+                            <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Studio 464</h5>
+                                <p class="card-text">Este projeto é um salão de beleza desenvolvido usando HTML, CSS e
+                                    Bootstrap. O objetivo foi criar um site com um design moderno e responsivo,
+                                    adaptável a diferentes dispositivos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://victor-louback.github.io/Studio464/" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Visualizar</a>
+                                        <a href="https://github.com/Victor-Louback/Studio464" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm projetos">
+                            <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto Spotify</h5>
+                                <p class="card-text">Este projeto consiste em uma reprodução da página inicial do
+                                    Spotify. Utilizei HTML, CSS e Bootstrap para desenvolver a interface, buscando
+                                    replicar a aparência e funcionalidades do site original.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/Victor-Louback/projeto-inicial-spotify"
+                                            target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm projetos">
+                            <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Relogio Digital</h5>
+                                <p class="card-text">Neste projeto, desenvolvi um relógio digital utilizando HTML, CSS e
+                                    JavaScript. O objetivo era criar uma interface simples e intuitiva para exibir o
+                                    horário atual de forma precisa e atualizada.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/Victor-Louback/Relogio-digital" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm projetos">
+                            <img src="img/projeto-4.png" class="card-img-top" alt="Imagem do projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Hotel Paraiso</h5>
+                                <p class="card-text">Neste projeto, desenvolvi um site para um hotel utilizando HTML e
+                                    CSS. O objetivo foi criar uma plataforma online que transmitisse a essência e o
+                                    ambiente acolhedor do hotel aos visitantes.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/Victor-Louback/Hotel-Paraiso" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm projetos">
+                            <img src="img/projeto-5.png" height="180px" class="card-img-top" alt="Imagem do projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Proximo Projeto</h5>
+                                <p class="card-text">sendo construído</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
+                <script src="https://kit.fontawesome.com/911919df65.js" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                    crossorigin="anonymous"></script>
+</body>
 
-
-<script src="https://kit.fontawesome.com/911919df65.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
