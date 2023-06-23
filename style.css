@@ -174,3 +174,7 @@ ul.list-inline li {
     transform: scale(1.07);
     transition: .5s;
 }
+
+.conhecimentos i {
+    font-size: 50px;
+}
