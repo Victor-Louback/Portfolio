@@ -26,7 +26,7 @@ body{
 /*Barra de navegação*/
 
 nav a img{
-    width: 100px;
+    width: 350px;
 }
 
 nav a span{
@@ -160,6 +160,19 @@ ul.list-inline li {
     width: 450px;
 }
 
+/*conhecimentos*/
+
+.tecnologia {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+  .tecnologia i {
+    font-size: 2em;
+  }
+
+
 
 /*Projetos*/
 
@@ -177,4 +190,54 @@ ul.list-inline li {
 
 .conhecimentos i {
     font-size: 50px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .txt1, .txt2{
+        font-size: 3em;
+    }
+    .h1{
+        font-size: 2em;
+    }
+    nav a img{
+        width: 250px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .txt1, .txt2{
+        font-size: 3em;
+    }
+    .h1{
+        font-size: 2em;
+    }
+    .projetos{
+       font-size: 14px;
+    }
+    nav a img{
+        width: 250px;
+    }
+    
+    
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .txt1, .txt2{
+        font-size: 3em;
+    }
+    .h1{
+        font-size: 2.3em;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .txt1, .txt2{
+        font-size: 3.5em;
+    }
 }

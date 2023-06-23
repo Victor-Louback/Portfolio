@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparente">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
-                    <img src="img/Logo1.png" class="img-fluid " style="width: 350px;">
+                    <img src="img/Logo1.png" class="img-fluid">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal">
@@ -66,7 +66,7 @@
     <section id="sobre-mim" class="sessao"><!--Sobre mim-->
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="txt-sobre-mim">Sobre mim</h1>
+                <h1 class="txt-sobre-mim h1">Sobre mim</h1>
             </div>
         </div>
         <div class="container"><!--container-->
@@ -115,7 +115,7 @@
     <section id="atualmente" class="sessao"><!--atualmente-->
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="txt-atualemte">O que estou fazendo atualmente</h1>
+                <h1 class="txt-atualemte h1">O que estou fazendo atualmente</h1>
             </div>
         </div>
         <div class="container"><!--container-->
@@ -146,86 +146,26 @@
 
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="txt-sobre-mim">Conhecimentos</h1>
+                <h1 class="txt-sobre-mim h1">Conhecimentos</h1>
             </div>
         </div>
 
-        <div class="container text-center conhecimentos">
-            <div class="row row-cols-4">
-                <div class="col">
-                    <p>
-                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#html"
-                            aria-expanded="false" aria-controls="html">
-                            <i class="fa-brands fa-html5"></i>
-                        </button>
-                    </p>
-                    <div class="collapse collapse-horizontal" id="html">
-                        <div class="card card-body" style="width: 300px;">
-                            HTML (HyperText Markup Language): É a linguagem de marcação usada para criar a estrutura e o
-                            conteúdo de uma página da web. É como o esqueleto de uma página, onde são definidos os
-                            elementos como cabeçalhos, parágrafos, imagens, links e outros elementos.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <p>
-                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#css"
-                            aria-expanded="false" aria-controls="css">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </button>
-                    </p>
-                    <div class="collapse collapse-horizontal" id="css">
-                        <div class="card card-body" style="width: 300px;">
-                            CSS (Cascading Style Sheets): É uma linguagem de estilo usada para dar aparência e formatar
-                            os elementos HTML. Com CSS, é possível definir cores, fontes, tamanhos, posicionamentos e
-                            outros estilos para deixar a página com um visual agradável e personalizado.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <p>
-                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#js"
-                            aria-expanded="false" aria-controls="js">
-                            <i class="fa-brands fa-js"></i>
-                        </button>
-                    </p>
-                    <div class="collapse collapse-horizontal" id="js">
-                        <div class="card card-body" style="width: 300px;">
-                            JavaScript: É uma linguagem de programação que permite adicionar interatividade e
-                            funcionalidades às páginas da web. Com JavaScript, é possível criar animações, manipular
-                            elementos da página, validar formulários, realizar requisições a servidores e muito mais.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <p>
-                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#bt"
-                            aria-expanded="false" aria-controls="bt">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </button>
-                    </p>
-                    <div class="collapse collapse-horizontal" id="bt">
-                        <div class="card card-body" style="width: 300px;">
-                            Bootstrap: É um framework de desenvolvimento web que fornece uma coleção de estilos CSS e
-                            componentes pré-estilizados, além de funcionalidades JavaScript. Ele facilita a criação de
-                            páginas responsivas e com um design moderno, sem a necessidade de escrever todo o código do
-                            zero. O Bootstrap permite criar rapidamente layouts e elementos comumente usados, como
-                            menus, botões, formulários, carrosséis, entre outros.
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="tecnologia">
+              <ul class="list-inline d-flex justify-content-evenly">
+                <li class="list-inline-item"><i class="fab fa-html5"></i><br> <span>HTML</span></li>
+                <li class="list-inline-item"><i class="fab fa-css3-alt"></i><br> <span>CSS</span></li>
+                <li class="list-inline-item"><i class="fab fa-js"></i><br> <span>JavaScript</span></li>
+                <li class="list-inline-item"><i class="fab fa-bootstrap"></i><br> <span>Bootstrap</span></li>
+              </ul>
             </div>
-
-        </div>
+          </div>
 
         <hr style="border: 2px solid #0A192F;">
 
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="txt-sobre-mim">Projetos</h1>
+                <h1 class="txt-sobre-mim h1">Projetos</h1>
             </div>
         </div>
 
@@ -263,6 +203,8 @@
                                     replicar a aparência e funcionalidades do site original.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+                                        <a href="https://victor-louback.github.io/projeto-inicial-spotify/index.html" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Visualizar</a>
                                         <a href="https://github.com/Victor-Louback/projeto-inicial-spotify"
                                             target="_blank"
                                             class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
@@ -281,6 +223,8 @@
                                     horário atual de forma precisa e atualizada.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+                                        <a href="https://victor-louback.github.io/Relogio-digital/" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary btn-custom">Visualizar</a>
                                         <a href="https://github.com/Victor-Louback/Relogio-digital" target="_blank"
                                             class="btn btn-sm btn-outline-secondary btn-custom">Projeto</a>
                                     </div>
