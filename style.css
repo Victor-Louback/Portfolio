@@ -188,6 +188,11 @@ ul.list-inline li {
     transition: .5s;
 }
 
+.projetos:not(:hover) {
+    transition: transform .7s ease;
+    transform: scale(1);
+}
+
 .conhecimentos i {
     font-size: 50px;
 }
