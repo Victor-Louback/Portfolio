@@ -112,7 +112,7 @@ main p {
 
 /*Sobre mim*/
 
-#sobre-mim {
+#sessao-1 {
     background: var(--branco);
     color: var(--azul);
 }
@@ -144,7 +144,7 @@ ul.list-inline li {
 /*Atualmente*/
 
 
-#atualmente {
+#sessao-2 {
     color: var(--branco);
 }
 
