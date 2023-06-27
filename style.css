@@ -19,7 +19,7 @@ body,
 
 body{
     background: linear-gradient(50deg, #112240, #0A192F) no-repeat;
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;
     word-spacing: -2px;
 }
 
