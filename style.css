@@ -91,10 +91,13 @@ main p {
 .btn-custom{
     background: #61f8d727;
     color: var(--verde);
-    border: 1px solid var(--verde);
-    box-shadow: 0px 0px 7px var(--verde);
+    border: 2px solid var(--verde);
+    box-shadow: 0 0 1em .2em #61F8D7,
+    0 0 4em .5em #1f6355,
+    inset 0 0 .75em .25em #61f8d727;
     margin: 10px;
 }
+
 
 .btn-custom:hover{
     background: var(--verde);
