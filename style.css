@@ -200,6 +200,14 @@ ul.list-inline li {
     font-size: 50px;
 }
 
+.card-img-top{
+    height: 200px;
+}
+
+
+.btn-outline-secondary:hover{
+    border: 2px solid var(--verde);
+}
 
 /*Footer*/
 
