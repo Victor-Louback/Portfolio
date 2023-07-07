@@ -47,6 +47,7 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--verde);
     transition: .5s;
+    text-shadow:0px 0px 20px #61F8D7;
 }
 
 .navbar-light .navbar-toggler {
