@@ -17,7 +17,7 @@ body,
 }
 
 
-body{
+body {
     background: linear-gradient(50deg, #112240, #0A192F) no-repeat;
     font-family: 'Inconsolata', monospace;
     word-spacing: -2px;
@@ -25,11 +25,11 @@ body{
 
 /*Barra de navegação*/
 
-nav a img{
+nav a img {
     width: 350px;
 }
 
-nav a span{
+nav a span {
     font-size: 1.5em;
     color: var(--branco);
     word-spacing: -10px;
@@ -47,7 +47,7 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--verde);
     transition: .5s;
-    text-shadow:0px 0px 20px #61F8D7;
+    text-shadow: 0px 0px 20px #61F8D7;
 }
 
 .navbar-light .navbar-toggler {
@@ -63,25 +63,26 @@ nav.navbar-transparente {
 
 /*Main*/
 
-main{
+main {
     padding-top: 100px;
     padding-bottom: 150px;
 }
 
-.txt1{
+.txt1 {
     text-transform: uppercase;
     font-size: 5em;
     color: var(--branco);
     word-spacing: -7px;
 }
 
-.txt2{
+.txt2 {
     text-transform: uppercase;
     font-size: 5em;
     font-weight: bolder;
-    background-image: linear-gradient(50deg,#112240, #61f8d7, #112240);
+    background-image: linear-gradient(50deg, #112240, #61f8d7, #112240);
     background-clip: text;
-    -webkit-background-clip: text; /* Suporte para navegadores WebKit, como o Safari e o Chrome */
+    -webkit-background-clip: text;
+    /* Suporte para navegadores WebKit, como o Safari e o Chrome */
     color: transparent;
 }
 
@@ -89,18 +90,18 @@ main p {
     color: var(--branco);
 }
 
-.btn-custom{
+.btn-custom {
     background: #61f8d727;
     color: var(--verde);
     border: 2px solid var(--verde);
     box-shadow: 0 0 1em .2em #61F8D7,
-    0 0 4em .5em #1f6355,
-    inset 0 0 .75em .25em #61f8d727;
+        0 0 4em .5em #1f6355,
+        inset 0 0 .75em .25em #61f8d727;
     margin: 10px;
 }
 
 
-.btn-custom:hover{
+.btn-custom:hover {
     background: var(--verde);
     color: var(--azul-claro);
     transition: .7s;
@@ -109,7 +110,7 @@ main p {
 
 /*Sessao*/
 
-.sessao{
+.sessao {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -121,7 +122,7 @@ main p {
     color: var(--azul);
 }
 
-.txt-sobre-mim{
+.txt-sobre-mim {
     text-transform: uppercase;
     font-size: 3em;
     word-spacing: -7px;
@@ -129,22 +130,23 @@ main p {
     padding-bottom: 50px;
 }
 
-.img-sobre-mim{
+.img-sobre-mim {
     background: var(--azul-claro);
     border-radius: 100%;
     width: 450px;
 }
 
-p > a{
+p>a {
     color: var(--rosa);
     font-size: 1.1em;
 }
+
 ul.list-inline li {
     display: inline-block;
     margin-right: 10px;
     font-size: .9em;
-  }
-  
+}
+
 /*Atualmente*/
 
 
@@ -152,7 +154,7 @@ ul.list-inline li {
     color: var(--branco);
 }
 
-.txt-atualemte{
+.txt-atualemte {
     text-transform: uppercase;
     font-size: 3em;
     word-spacing: -7px;
@@ -160,7 +162,7 @@ ul.list-inline li {
     padding-bottom: 50px;
 }
 
-.img-atualmente{
+.img-atualmente {
     width: 450px;
 }
 
@@ -170,24 +172,24 @@ ul.list-inline li {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.5em;
-  }
+}
 
-  .tecnologia i {
+.tecnologia i {
     font-size: 2em;
-  }
+}
 
 
 
 /*Projetos*/
 
-.projetos{
+.projetos {
     height: 450px;
     background: var(--azul);
     color: var(--branco);
     margin-bottom: 20px;
 }
 
-.projetos:hover{
+.projetos:hover {
     transform: scale(1.07);
     transition: .5s;
 }
@@ -201,66 +203,82 @@ ul.list-inline li {
     font-size: 50px;
 }
 
-.card-img-top{
+.card-img-top {
     height: 200px;
 }
 
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
     border: 2px solid var(--verde);
 }
 
+
+
 /*Footer*/
 
-footer{
+footer {
     color: var(--branco);
     margin: 20px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    .txt1, .txt2{
+
+    .txt1,
+    .txt2 {
         font-size: 3em;
     }
-    .h1{
+
+    .h1 {
         font-size: 2em;
     }
-    nav a img{
+
+    nav a img {
         width: 250px;
     }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .txt1, .txt2{
+
+    .txt1,
+    .txt2 {
         font-size: 3em;
     }
-    .h1{
+
+    .h1 {
         font-size: 2em;
     }
-    .projetos{
-       font-size: 14px;
+
+    .projetos {
+        font-size: 14px;
     }
-    nav a img{
+
+    nav a img {
         width: 250px;
     }
-    
-    
+
+
 }
 
 /* Medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .txt1, .txt2{
+
+    .txt1,
+    .txt2 {
         font-size: 3em;
     }
-    .h1{
+
+    .h1 {
         font-size: 2.3em;
     }
 }
 
 /* Large devices (desktops, less than 1200px)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .txt1, .txt2{
+
+    .txt1,
+    .txt2 {
         font-size: 3.5em;
     }
 }
