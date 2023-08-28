@@ -250,6 +250,10 @@ footer {
     nav a img {
         width: 250px;
     }
+    .btn-group{
+        padding-bottom: 0px;
+    
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
