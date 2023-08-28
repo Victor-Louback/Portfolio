@@ -189,7 +189,7 @@ ul.list-inline li {
 /*Projetos*/
 
 .projetos {
-    height: 450px;
+    height: 500px;
     background: var(--azul);
     color: var(--branco);
     margin-bottom: 20px;
@@ -211,14 +211,24 @@ ul.list-inline li {
 
 .card-img-top {
     height: 200px;
+    object-fit: cover; 
+}
+
+.col {
+    position: relative;
+}
+
+.btn-group {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    padding-bottom: 15px;
 }
 
 
 .btn-outline-secondary:hover {
     border: 2px solid var(--verde);
 }
-
-
 
 /*Footer*/
 
@@ -227,7 +237,6 @@ footer {
     margin: 20px;
 }
 
-/* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
     .txt1,
@@ -244,7 +253,6 @@ footer {
     }
 }
 
-/* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .txt1,
@@ -263,11 +271,13 @@ footer {
     nav a img {
         width: 250px;
     }
+    .card-body p{
+        font-size: .9em;
+    }
 
 
 }
 
-/* Medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     .txt1,
@@ -278,13 +288,29 @@ footer {
     .h1 {
         font-size: 2.3em;
     }
+    .card-body p{
+        font-size: .9em;
+    }
 }
 
-/* Large devices (desktops, less than 1200px)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px){
 
     .txt1,
     .txt2 {
         font-size: 3.5em;
+    }
+    .card-body p{
+        font-size: .9em;
+    }
+}
+
+@media (min-width: 1400px){
+
+    .txt1,
+    .txt2 {
+        font-size: 3.5em;
+    }
+    .card-body p{
+        font-size: 1em;
     }
 }
