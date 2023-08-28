@@ -193,6 +193,7 @@ ul.list-inline li {
     background: var(--azul);
     color: var(--branco);
     margin-bottom: 20px;
+    position: relative;
 }
 
 .projetos:hover {
@@ -210,19 +211,17 @@ ul.list-inline li {
 }
 
 .card-img-top {
-    height: 200px;
+    max-height: 201px;
+    min-height: 200px;
     object-fit: cover; 
 }
 
-.col {
-    position: relative;
-}
-
-.btn-group {
+.btn-group{
     position: absolute;
     bottom: 0;
-    left: 0; 
-    padding-bottom: 15px;
+    left: 0;
+    padding-bottom: 10px;
+
 }
 
 
