@@ -23,6 +23,19 @@ body {
     word-spacing: -2px;
 }
 
+.hidden{
+    opacity: 0;
+    transform: translateX(10);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 2s;
+}
+
+
 /*Barra de navegação*/
 
 nav a img {
@@ -235,6 +248,7 @@ footer {
     color: var(--branco);
     margin: 20px;
 }
+
 
 @media (max-width: 575.98px) {
 
