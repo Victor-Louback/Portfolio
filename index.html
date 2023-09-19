@@ -159,16 +159,41 @@
         </div>
 
         <div class="container">
-            <div class="tecnologia">
-                <ul class="list-inline d-flex justify-content-evenly">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i><br> <span>HTML</span></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i><br> <span>CSS</span></li>
-                    <li class="list-inline-item"><i class="fab fa-js"></i><br> <span>JavaScript</span></li>
-                    <li class="list-inline-item"><i class="fab fa-bootstrap"></i><br> <span>Bootstrap</span></li>
-                </ul>
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active text-center" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i
+                                class="fab fa-html5"></i> HTML</a>
+                        <a class="list-group-item list-group-item-action text-center" id="list-profile-list"
+                            data-bs-toggle="list" href="#list-profile" role="tab"
+                            aria-controls="list-profile"><i class="fab fa-css3-alt"></i> CSS</a>
+                        <a class="list-group-item list-group-item-action text-center" id="list-messages-list"
+                            data-bs-toggle="list" href="#list-messages" role="tab"
+                            aria-controls="list-messages"><i class="fab fa-js"></i> JavaScript</a>
+                        <a class="list-group-item list-group-item-action text-center" id="list-settings-list"
+                            data-bs-toggle="list" href="#list-settings" role="tab"
+                            aria-controls="list-settings"><i class="fab fa-bootstrap"></i> Bootstrap</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">HTML (HyperText Markup Language) é a linguagem fundamental para a criação de páginas da web. Ela funciona através de etiquetas que envolvem o conteúdo, permitindo a organização de elementos como títulos, parágrafos, imagens e links. O HTML age como a estrutura básica de uma página, definindo a hierarquia e o tipo de informações presentes.</div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">CSS (Cascading Style Sheets) é responsável pelo estilo e aparência das páginas da web. Com o CSS, você pode personalizar a cor, o tamanho e a fonte do texto, além de controlar o posicionamento e o espaçamento dos elementos na página. Ele permite que os desenvolvedores criem páginas visualmente atraentes e coerentes.
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            JavaScript (JS) é uma linguagem de programação usada para tornar as páginas da web interativas e dinâmicas. Com o JS, é possível adicionar funcionalidades como animações, validação de formulários e respostas a eventos do usuário, como cliques e movimentos do mouse. Ele desempenha um papel crucial na criação de experiências de usuário envolventes na web.</div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            Bootstrap é um framework de front-end que simplifica o processo de criação de páginas da web responsivas e estilizadas. Ele fornece um conjunto de componentes, estilos pré-definidos e layouts flexíveis que facilitam o desenvolvimento. O Bootstrap é uma escolha popular entre os desenvolvedores para economizar tempo e garantir que as páginas sejam consistentes e compatíveis com dispositivos diversos.</div>
+                    </div>
+                </div>
             </div>
-        </div>
 
+        </div>
         <hr style="border: 2px solid #0A192F;">
 
         <div class="row text-center">
