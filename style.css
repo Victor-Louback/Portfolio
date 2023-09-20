@@ -187,6 +187,18 @@ ul.list-inline li {
 
 /*conhecimentos*/
 
+#list-tab a {
+    background-color: var(--azul-claro);
+    border: var(--azul-claro);
+    color: var(--branco);
+}
+
+#list-tab a.active {
+    background-color: var(--verde);
+    border: var(--cinza);
+    color: var(--azul-claro);
+}
+
 
 
 /*Projetos*/
