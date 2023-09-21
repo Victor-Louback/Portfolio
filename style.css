@@ -195,7 +195,6 @@ ul.list-inline li {
 
 #list-tab a.active {
     background-color: var(--verde);
-    border: var(--cinza);
     color: var(--azul-claro);
 }
 
