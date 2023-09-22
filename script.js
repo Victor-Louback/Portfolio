@@ -14,7 +14,7 @@ function startTypingAnimation() {
     setTimeout(() => {
         titulo2.classList.remove('invisivel'); typeWriter(titulo2, 100); // Chama typeWriter para o titulo2 após um atraso de 3 segundos
     }, 2500);
-    
+
 }
 
 // Inicializar a animação de digitação

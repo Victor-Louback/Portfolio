@@ -23,13 +23,13 @@ body {
     word-spacing: -2px;
 }
 
-.hidden{
+.hidden {
     opacity: 0;
     transform: translateX(10);
     transition: all 1s;
 }
 
-.show{
+.show {
     opacity: 1;
     filter: blur(0px);
     transition: all 2s;
@@ -227,10 +227,10 @@ ul.list-inline li {
 .card-img-top {
     max-height: 201px;
     min-height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
-.btn-group{
+.btn-group {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -265,9 +265,10 @@ footer {
     nav a img {
         width: 250px;
     }
-    .btn-group{
+
+    .btn-group {
         padding-bottom: 0px;
-    
+
     }
 }
 
@@ -289,7 +290,8 @@ footer {
     nav a img {
         width: 250px;
     }
-    .card-body p{
+
+    .card-body p {
         font-size: .9em;
     }
 
@@ -306,29 +308,32 @@ footer {
     .h1 {
         font-size: 2.3em;
     }
-    .card-body p{
+
+    .card-body p {
         font-size: .9em;
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
 
     .txt1,
     .txt2 {
         font-size: 3.5em;
     }
-    .card-body p{
+
+    .card-body p {
         font-size: .9em;
     }
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
 
     .txt1,
     .txt2 {
         font-size: 3.5em;
     }
-    .card-body p{
+
+    .card-body p {
         font-size: 1em;
     }
 }
