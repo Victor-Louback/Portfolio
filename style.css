@@ -77,8 +77,8 @@ nav.navbar-transparente {
 /*Main*/
 
 main {
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 200px;
 }
 
 .txt1 {
@@ -89,14 +89,14 @@ main {
 }
 
 .txt2 {
-    text-transform: uppercase;
     font-size: 5em;
+    text-transform: uppercase;
     font-weight: bolder;
-    background-image: linear-gradient(50deg, #112240, #61f8d7, #112240);
+    background-image: linear-gradient(50deg, #61f8d7, #61f8d7de, #61f8d79e);
     background-clip: text;
     -webkit-background-clip: text;
-    /* Suporte para navegadores WebKit, como o Safari e o Chrome */
-    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .invisivel {
@@ -124,7 +124,7 @@ main p {
     background: var(--verde);
     color: var(--azul-claro);
     transition: .7s;
-    box-shadow: 0px 0px 20px var(--verde);
+    box-shadow: 0px 0px 12px var(--verde);
 }
 
 /*Sessao*/
@@ -151,6 +151,7 @@ main p {
 
 .img-sobre-mim {
     background: var(--azul-claro);
+    filter: grayscale(30%);
     border-radius: 100%;
     width: 450px;
 }
