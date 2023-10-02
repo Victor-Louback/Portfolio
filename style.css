@@ -16,6 +16,11 @@ body,
     /*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
 }
 
+*::selection{
+    background-color: var(--azul-claro);
+    color: var(--verde);
+}
+
 
 body {
     background: linear-gradient(50deg, #112240, #0A192F) no-repeat;
